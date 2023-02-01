@@ -5,5 +5,9 @@ from django.shortcuts import render
 def index(request):
     return render(request, "patients/index.html")
 
-# def patients(rqt):
-#     return render(rqt, "patients/patients.html")
+def contact(request):
+    return render(request, "patients/contacto.html")
+
+def servicios(request):
+    return render(request, "patients/servicios.html")
+
